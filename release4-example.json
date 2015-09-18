@@ -1,0 +1,187 @@
+{
+  "components": {
+    "J1": {
+      "footprint": "micro-usb-type-b-molex-473460001", 
+      "layer": "bottom", 
+      "location": [
+        13.5, 
+        0
+      ], 
+      "rotate": -90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": true, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J2": {
+      "footprint": "micro-usb-type-b-molex-473460001", 
+      "layer": "top", 
+      "location": [
+        -13.5, 
+        0
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0.0, 
+            2.0
+          ], 
+          "rotate": 0, 
+          "rotate-with-component": true, 
+          "show": true
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "mlayer-test", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "A", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.25, 
+      "pad": 0.3, 
+      "route": 0.25
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        0.201831, 
+        -19.5077
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: release4-example \nRevision: A\nDescription: A small example of multiple layers \nLicense: Solderpad Hardware License, version 0.51\nCompany: Boldport Limited\nDesigner: Saar Drimer, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        1.131274, 
+        -32.739699
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top (white), bottom (white)\nSoldermask: top (green), bottom (green)\nSurface finish: ENIG (lead free)"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -2.678711, 
+        -43.513142
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://bitbucket.org/boldport/pcbmode\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      -15.1726665, 
+      -9.70139111295
+    ]
+  }, 
+  "files": {
+    "routing-data": "mlayer-test_routing.json", 
+    "routing-svg": "mlayer.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "outline": {
+    "measurements": {
+      "font-family": "UbuntuMono-R-webfont", 
+      "scale": 0.0008
+    }, 
+    "shape": {
+      "type": "path", 
+      "value": "M 15.172667,4.734528 C 12.140633,6.175417 9.0109509,6.895112 5.8470745,7.300422 3.8670617,7.549705 1.9021384,5.160599 8.709e-8,5.162102 -1.9980092,5.159339 -3.9516593,7.540016 -5.8470742,7.300422 -9.1168335,6.88578 -12.169998,6.140731 -15.172666,4.734528 l 0,-10.2345278 c 3.032034,-1.440889 6.1617157,-2.1605842 9.3255918,-2.5658941 C -3.8670615,-8.315177 -1.9021381,-5.9260706 8.709e-8,-5.9275739 1.9980094,-5.9248139 3.9516596,-8.305488 5.8470746,-8.0658941 9.1168339,-7.6512518 12.169998,-6.906203 15.172667,-5.5 Z"
+    }
+  }, 
+  "shapes": {
+    "CPR1": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": true
+    }, 
+    "TXT1": {
+      "footprint": "text", 
+      "layer": "top", 
+      "location": [
+        0, 
+        2.8
+      ], 
+      "show": true
+    }, 
+    "TXT2": {
+      "footprint": "text", 
+      "layer": "top", 
+      "location": [
+        0, 
+        -2.8
+      ], 
+      "show": true
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05, 
+    "scale": 1.1
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1, 
+    "scale": 0.9
+  }, 
+  "stackup": {
+    "name": "four-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
