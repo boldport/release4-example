@@ -79,7 +79,8 @@
           "mirror": true, 
           "type": "text", 
           "value": "bottom layer",
-          "location": [0,-0.5]
+          "location": [0,-0.5],
+          "soldermask": {}
         }
       ]
     }

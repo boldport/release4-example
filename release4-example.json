@@ -12,8 +12,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            0, 
-            0
+            2.800452999999999, 
+            5.2079035
           ], 
           "rotate": 0, 
           "rotate-with-component": true, 
@@ -36,10 +36,10 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            0.0, 
-            2.0
+            -5.2, 
+            2.5
           ], 
-          "rotate": 0, 
+          "rotate": -90, 
           "rotate-with-component": true, 
           "show": true
         }, 
@@ -65,6 +65,16 @@
       "outline": 0.25, 
       "pad": 0.3, 
       "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
     }
   }, 
   "documentation": {
@@ -165,18 +175,6 @@
       ], 
       "show": true
     }
-  }, 
-  "soldermask": {
-    "circle-buffer": 0.05, 
-    "path-scale": 1.05, 
-    "rect-buffer": 0.05, 
-    "scale": 1.1
-  }, 
-  "solderpaste": {
-    "circle-buffer": -0.1, 
-    "path-scale": 0.9, 
-    "rect-buffer": -0.1, 
-    "scale": 0.9
   }, 
   "stackup": {
     "name": "four-layer"
